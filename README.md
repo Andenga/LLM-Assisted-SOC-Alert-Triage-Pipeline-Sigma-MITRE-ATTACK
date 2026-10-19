@@ -7,6 +7,18 @@
 ![CI](https://github.com/<you>/<repo>/actions/workflows/ci.yml/badge.svg)
 
 ---
+## Data setup
+
+The MITRE ATT&CK dataset is not stored in this repo because of its size.
+Download it from the project root
+```powershell
+mkdir data\attack
+Invoke-WebRequest -Uri "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json" -OutFile "data\attack\enterprise-attack.json"
+```
+
+- Source: https://github.com/mitre-attack/attack-stix-data
+- ATT&CK version used in this project: **17.1** (replace with yours)
+- Downloaded on: **2026-10-19** (replace with your date)
 
 ## Problem statement
 
