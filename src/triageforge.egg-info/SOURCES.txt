@@ -1,7 +1,9 @@
 README.md
 pyproject.toml
 src/triageforge/__init__.py
+src/triageforge/models.py
 src/triageforge.egg-info/PKG-INFO
 src/triageforge.egg-info/SOURCES.txt
 src/triageforge.egg-info/dependency_links.txt
 src/triageforge.egg-info/top_level.txt
+tests/test_smoke.py
