@@ -1,0 +1,4 @@
+default: medium
+hosts:
+  DC01: critical
+  LAB-WIN10: low
